@@ -8,7 +8,7 @@ yt0 = 0;
 Vt = 300;
 direction_vt = 0;
 %% Missile
-xm0 = 5000;
+xm0 = 30000;
 ym0 = 5000;
 Vm = 850;
 direction_vm = -180 * Deg2Rad;
