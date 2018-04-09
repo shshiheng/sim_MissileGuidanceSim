@@ -21,7 +21,9 @@ V2018.4.9.1530:
 Three blocks (PPN, TPN, APN) are put together.
 Trajectory and overload comparing figures can be output.
 
-
+V2018.4.9.2051:
+OGL added. But the overload seems wrong. The K_Guide_OGL gets huge as tgo approaches 0.
 
 Need to do:
 LOS rate (Omega) = LOS - LOS_old;
+

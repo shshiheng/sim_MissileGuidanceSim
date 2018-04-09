@@ -23,6 +23,10 @@ if GuidanceMethod(1) == 3
     MissileTrajColor = 'g';
     TrajLegend = 'APN';
 end
+if GuidanceMethod(1) == 4
+    MissileTrajColor = 'c';
+    TrajLegend = 'OGL';
+end
 
 %% Draw Trajectory Dynamically - Figure1
 % figure(1)
@@ -41,9 +45,9 @@ end
 
 %% Trajectory - Figure 1
 figure(1)
-plot(Xt,Yt,'r-','LineWidth',2),grid
-hold on
-plot(Xm,Ym, MissileTrajColor ,'LineWidth',2),grid
+% plot(Xt,Yt,'r-','LineWidth',2),grid
+% hold on
+plot(Xt,Yt,'r-',Xm,Ym, MissileTrajColor ,'LineWidth',2),grid
 title('Guidance Trajectory')
 xlabel('x')
 ylabel('y')
